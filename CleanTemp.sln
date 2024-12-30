@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E49A1611-2CFC-4E69-B374-B9C1D73142E4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		ProjectCommon.targets = ProjectCommon.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D89FE5AA-2CC9-4C60-A08E-C1361122F397}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{17762846-71AC-4207-9424-DB09FA3A83A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanTemp.WebApi", "src\CleanTemp.WebApi\CleanTemp.WebApi.csproj", "{99B41F5D-D6B9-48EA-8700-7CB885030D47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17762846-71AC-4207-9424-DB09FA3A83A0} = {D89FE5AA-2CC9-4C60-A08E-C1361122F397}
+		{99B41F5D-D6B9-48EA-8700-7CB885030D47} = {17762846-71AC-4207-9424-DB09FA3A83A0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
