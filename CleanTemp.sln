@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanTemp.WebApi", "src\CleanTemp.WebApi\CleanTemp.WebApi.csproj", "{99B41F5D-D6B9-48EA-8700-7CB885030D47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "src\test\test.csproj", "{B44DC9B2-0561-49AE-A27A-4086C98FA4AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{17762846-71AC-4207-9424-DB09FA3A83A0} = {D89FE5AA-2CC9-4C60-A08E-C1361122F397}
 		{99B41F5D-D6B9-48EA-8700-7CB885030D47} = {17762846-71AC-4207-9424-DB09FA3A83A0}
+		{B44DC9B2-0561-49AE-A27A-4086C98FA4AF} = {17762846-71AC-4207-9424-DB09FA3A83A0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99B41F5D-D6B9-48EA-8700-7CB885030D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44DC9B2-0561-49AE-A27A-4086C98FA4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44DC9B2-0561-49AE-A27A-4086C98FA4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44DC9B2-0561-49AE-A27A-4086C98FA4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44DC9B2-0561-49AE-A27A-4086C98FA4AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
